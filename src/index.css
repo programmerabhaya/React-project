@@ -1,0 +1,60 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question-section {
+  margin-bottom: 20px;
+}
+
+.question-count {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.question-text {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Style for correct answer */
+.correct {
+  background-color: #4caf50;
+}
+
+/* Style for incorrect answer */
+.incorrect {
+  background-color: #f44336;
+}
